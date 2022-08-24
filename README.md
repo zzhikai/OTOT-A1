@@ -4,7 +4,7 @@ CS3219 OTOT Task A1 is split into 3 parts. Read up on reverse proxy [here](https
 
 First, clone the repository
 ```sh
-git clone https://github.com/marcustw/ay2022-23_cs3219_otot_taska1 cs3219_otot_taska1
+git clone https://github.com/CS3219-AY2223S1/OTOT-A1.git
 cd cs3219_otot_taska1
 ```
 
