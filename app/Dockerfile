@@ -17,7 +17,7 @@ COPY . .
 
 # Given app binds to port 8080 as defined in index.js/server.js, use EXPOSE instruction
 # to have it mapped by the docker daemon
-EXPOSE 8080
+EXPOSE 3000
 
 # Define command to run your app using CMD which defines your runtime
 # We will use node index.js to start the server:
