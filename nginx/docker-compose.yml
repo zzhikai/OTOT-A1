@@ -1,0 +1,15 @@
+version: "3.7"
+services:
+  nodeserver:
+    build:
+      # using existing file
+      context: ../app
+    ports:
+      - "3000:3000"
+  nginx:
+    restart: always
+    build:
+      # using current file
+      context: ../nginx
+    ports:
+      - "80:80"
