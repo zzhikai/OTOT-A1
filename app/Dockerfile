@@ -15,7 +15,7 @@ RUN npm install
 # Bundle app source code inside the Docket image with COPY instruction
 COPY . .
 
-# Given app binds to port 8080 as defined in index.js/server.js, use EXPOSE instruction
+# Given app binds to port 3000 as defined in index.js/server.js, use EXPOSE instruction
 # to have it mapped by the docker daemon
 EXPOSE 3000
 
